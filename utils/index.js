@@ -1,0 +1,1 @@
+// Some small function to make the code more readable
