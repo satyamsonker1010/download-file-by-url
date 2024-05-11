@@ -1,6 +1,8 @@
 const express = require('express');
 const cors = require('cors');
 const bodyparser = require('body-parser');
+// Auto matic execute message queue file
+require("./services/queue/index");
 const app = express();
 
 app.use(cors(
